@@ -36,18 +36,6 @@ function Foreground() {
 
         },
         {
-            desc: "Presentation slides for the client pitch, updated with new stats.",
-            fileSize: "1.6 mb",
-            close: true,
-            tagDetails: 
-            {
-                isOpen: false,
-                tagTitle: "Download",
-                tagColor: "emerald"
-            }
-
-        },
-        {
             desc: "file containing sales data for January 2025, 500 entries.",
             fileSize: "0.6 mb",
             close: true,
