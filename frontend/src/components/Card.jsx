@@ -7,8 +7,8 @@ import { motion } from "framer-motion"
 
 function Card({data, reference}) {
     const tagColorMap={
-        emerald: 'bg-emerald-300/65',
-        sky: 'bg-sky-300/65'
+        emerald: 'bg-emerald-300',
+        sky: 'bg-sky-300'
     };
   return (
     <motion.div drag dragConstraints={reference} dragTransition={{ bounceStiffness: 300, bounceDamping: 30 }} whileDrag={{scale:1.1}} dragElastic={0.2} transition={{ type: 'spring', stiffness: 300 }} className='flex-shrink-0  relative w-52 h-64 rounded-[40px] bg-zinc-900/50 text-zinc-300 px-5 py-8 overflow-hidden'>
