@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: "Pally";
+}
+
+::selection{
+    color: rgb(233, 121, 22);
+}
